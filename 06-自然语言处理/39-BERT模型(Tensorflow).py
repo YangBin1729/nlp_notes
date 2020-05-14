@@ -1007,7 +1007,6 @@ for param in params[197:]:
 
 # # 辅助函数
 
-# +
 # 初始化函数
 def get_initializer(initializer_range=0.02):
     """Creates a `tf.initializers.truncated_normal` with the given range.
@@ -1019,11 +1018,6 @@ def get_initializer(initializer_range=0.02):
       TruncatedNormal initializer with stddev = `initializer_range`.
     """
     return tf.keras.initializers.TruncatedNormal(stddev=initializer_range)
-
-
-# -
-
-# ?tf.einsum
 
 
 
